@@ -1,0 +1,57 @@
+[0m19:10:48.362614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262223C7410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002621FD50980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026221B09880>]}
+
+
+============================== 19:10:48.367332 | a38e9639-46e3-43fe-a6dc-155dbfa74b84 ==============================
+[0m19:10:48.367332 [info ] [MainThread]: Running with dbt=1.8.5
+[0m19:10:48.368333 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\moyua\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:13:53.961831 [debug] [MainThread]: Starter project path: D:\Tech\Dbt\01_udemy_dbt\venv_dbt_snowflake\Lib\site-packages\dbt\include\starter_project
+[0m19:13:53.976705 [info ] [MainThread]: 
+Your new dbt project "dbt_airbnb_listing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:13:53.977704 [info ] [MainThread]: Setting up your profile.
+[0m19:17:08.128678 [info ] [MainThread]: Profile dbt_airbnb_listing written to C:\Users\moyua\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:17:08.130621 [debug] [MainThread]: Command `dbt init` succeeded at 19:17:08.130621 after 379.90 seconds
+[0m19:17:08.131624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002621EE155B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262226A1430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000262226A2570>]}
+[0m19:17:08.132621 [debug] [MainThread]: Flushing usage events
+[0m19:18:00.135720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0C646D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0C5EB350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0CC7DF70>]}
+
+
+============================== 19:18:00.139718 | 2a18070e-1311-4d75-98d9-5e535a777d9c ==============================
+[0m19:18:00.139718 [info ] [MainThread]: Running with dbt=1.8.5
+[0m19:18:00.140745 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\moyua\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:18:00.155716 [info ] [MainThread]: dbt version: 1.8.5
+[0m19:18:00.156714 [info ] [MainThread]: python version: 3.12.5
+[0m19:18:00.156714 [info ] [MainThread]: python path: D:\Tech\Dbt\01_udemy_dbt\venv_dbt_snowflake\Scripts\python.exe
+[0m19:18:00.157713 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m19:18:00.494721 [info ] [MainThread]: Using profiles dir at C:\Users\moyua\.dbt
+[0m19:18:00.495730 [info ] [MainThread]: Using profiles.yml file at C:\Users\moyua\.dbt\profiles.yml
+[0m19:18:00.496727 [info ] [MainThread]: Using dbt_project.yml file at D:\Tech\Dbt\01_udemy_dbt\dbt_project.yml
+[0m19:18:00.497732 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:18:00.498664 [debug] [MainThread]: Command `dbt debug` failed at 19:18:00.498664 after 0.52 seconds
+[0m19:18:00.499726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0CE393D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0DE97DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029C0EFE51C0>]}
+[0m19:18:00.499726 [debug] [MainThread]: Flushing usage events
+[0m19:20:09.322342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B73514B200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B735845790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B735A4C980>]}
+
+
+============================== 19:20:09.326341 | 59fa8b31-dec2-4361-9586-e2953e11e7c6 ==============================
+[0m19:20:09.326341 [info ] [MainThread]: Running with dbt=1.8.5
+[0m19:20:09.326341 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\moyua\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:21:29.353925 [info ] [MainThread]: A project called dbt_airbnb_listing already exists here.
+[0m19:21:29.355913 [debug] [MainThread]: Command `dbt init` succeeded at 19:21:29.354913 after 80.17 seconds
+[0m19:21:29.355913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B734C06600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B735A9C620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7357DC8F0>]}
+[0m19:21:29.356913 [debug] [MainThread]: Flushing usage events
